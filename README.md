@@ -71,8 +71,8 @@
 - `docs/` — бизнес-контекст и смежные закрытые тикеты (экспортом, не ссылкой);
 - макеты — скриншоты с комментариями в чат или файлы-пояснения рядом.
 
-Образец проектного `CLAUDE.md` и шаблон пояснения к макету — в составе навыка
-(`plugins/write-tz/skills/write-tz/`).
+Образец проектного `CLAUDE.md` (`CLAUDE.md.ba-example`) и шаблон пояснения к
+макету — в составе навыка (`plugins/write-tz/skills/write-tz/`).
 
 ## Обновление навыка
 
@@ -101,6 +101,7 @@ write-tz-plugin/
 │       └── skills/
 │           └── write-tz/
 │               ├── SKILL.md                          # сам навык
+│               ├── CLAUDE.md.ba-example              # образец проектного CLAUDE.md (база знаний)
 │               ├── mockup-explanation-template.md    # шаблон пояснения к макету
 │               └── examples/                         # эталоны форм A и B
 └── README.md                        # этот файл
